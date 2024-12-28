@@ -1,11 +1,13 @@
 <?php
 
 class Book {
+//properties 
     private string $title;
     private string $author;
     private int $publicationYear;
     private float $price;
 
+//methods 
     public function __construct(string $title, string $author, int $publicationYear, float $price) {
         $this->title = $title;
         $this->author = $author;
